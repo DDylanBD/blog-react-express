@@ -11,14 +11,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^1.0.2",
     "body-parser": "^1.17.1",
+    "material-ui": "^0.16.5",
     "dotenv": "4.0.0",
     "express": "^4.15.2",
+    "jsonwebtoken": "^7.2.1",
     "mongoose": "^4.9.0",
     "morgan": "1.8.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "react-tap-event-plugin": "^2.0.1",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-router": "^3.0.2"
+    "react-router": "^3.0.2",
+    "validator": "^7.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.23.1",

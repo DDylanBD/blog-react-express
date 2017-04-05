@@ -1,17 +1,17 @@
 const path = require('path');
 
 module.exports = {
-    entry: path.join(__dirname, 'client/src/index.jsx'),
+    entry: path.join(__dirname, 'front-end/src/index.jsx'),
 
     output: {
-        path: path.join(__dirname, 'client/public'),
+        path: path.join(__dirname, 'front-end/public'),
         filename: "bundle.js"
     },
     module: {
         rules: [
             {
                 test: /\.jsx?$/,
-                include: path.join(__dirname, 'client/src'),
+                include: path.join(__dirname, 'front-end/src'),
                 use: {
                   loader : 'babel-loader',
                   query: {
@@ -20,7 +20,7 @@ module.exports = {
                 }
             }, {
                 test: /\.scss$/,
-                include: path.join(__dirname, 'client/src/static/css'),
+                include: path.join(__dirname, 'front-end/src/static/css'),
                 use: [
                     {
                         loader: "style-loader"

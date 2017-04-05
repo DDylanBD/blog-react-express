@@ -1,0 +1,4 @@
+{
+  "blogDb": "mongodb://localhost/blogDb",
+  "jwtSecret": "a secret phrase!!"
+}
